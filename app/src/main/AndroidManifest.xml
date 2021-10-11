@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shaplacity">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShaplaCity">
+        <activity
+            android:name=".Totallamount2"
+            android:exported="true" />
+        <activity
+            android:name=".Installment"
+            android:exported="true" />
+        <activity
+            android:name=".ApplicantInfo2"
+            android:exported="true" />
+        <activity
+            android:name=".Logout"
+            android:exported="true" />
+        <activity
+            android:name=".ApplicationInfo"
+            android:exported="true" />
+        <activity
+            android:name=".Nomineeinfo"
+            android:exported="true" />
+        <activity
+            android:name=".Totalamount"
+            android:exported="true" />
+        <activity
+            android:name=".profile"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>
